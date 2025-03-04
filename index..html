@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>🎂 Age Calculator</title>
+</head>
+<body>
+    <div class="theme-toggle">
+        <label class="switch">
+            <input type="checkbox" id="themeSwitch">
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-label">Dark Mode</span>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h1>🎂 Age Calculator</h1>
+            <label for="dob">Enter your Date of Birth:</label>
+            <input type="date" id="dob" required>
+            <button id="calculateBtn">Reveal My Age!</button>
+            <div id="result" class="result hidden">
+                <p id="ageMessage"></p>
+                <p id="funMessage"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="https://www.linkedin.com/in/daivik-agarwal" target="_blank">Daivik Agarwal</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
